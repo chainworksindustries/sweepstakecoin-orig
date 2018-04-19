@@ -1,0 +1,32 @@
+update 20180420 - This git repo is the reverted 'tor-enabled' version of SweepStakeCoin so there is no confusion as to which is the working compiled version of the repo. Please use this repo for any compilations required ... #crysx
+
+update 20170923 - below are the original specs of the coin ... these will be changed as we continue development ... the first major change currently is complete removal of tor ... we are still testing - and building the seednodes for support of ipv4 only ( without tor ) ... specs will change also when the next hardfork comes about ... #crysx
+
+SweepStakeCoin
+SWEEP
+
+- PoW/PoS 
+- JHA algorithm for PoW
+- 3 transaction confirmations 
+- 50 minted block confirmations
+- Total coins will be around 2 billion after 10 years.
+- Connection port 17570, RPC port 17571
+
+PoW:
+- 60 sec block target
+- diff retarget each block
+- Initial payout will be 1000 coins per block
+- True random sweepstake
+- Sweepstake up to 20,000 times the normal payout
+- PoW payout will be reduced by 5% every 30 days. Minimum payout will be 1 SWEEP and will stay there (it will be reached after 11 years and 3 months)
+
+PoS:
+- 60 sec block target
+- diff retarget each block
+- PoS interest will be variable per year:
+	1st year: 20%
+	2nd year: 10%
+	3rd and subsequent years: 5%
+
+- minimum holding time before the pos will be generated 1 day.
+- maximum allowed accumulated coin is 30 days
